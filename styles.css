@@ -1,0 +1,171 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*CSS PARA EL INDEX*/
+
+/*MENU ENCABEZADO*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: #bca6f0;
+    border-radius: 20PX;
+    margin-inline: 10%;
+    }
+
+.titulo_pagina {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    
+}
+
+.elementosmenu {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.enlaceelementosmenu {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    border: 2px solid transparent;
+}
+
+.enlaceelementosmenu:hover {
+    color: rgb(103, 37, 129);
+    background-color: #f6ecff;
+    border-radius: 20px;
+    display: inline;
+    padding: 8px;
+    border: 2px solid transparent;
+}
+
+.sombra {
+    box-shadow: 1px 1px 1px transparent;
+    filter: drop-shadow(5px 5px 15px black);
+}
+
+.backgroundgradient {
+    background:linear-gradient(to bottom right, #a619f8, #00f2fe);
+    
+}
+
+
+.encabezado {
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-color: rgb(178, 153, 238);
+    margin-inline: 35%;
+}
+
+
+.fieldsetstyle {
+    border-radius: 20px;
+    border-color: black;
+    margin: 5px;
+    border-width: 2px;
+}
+
+.cucophoto {
+    border-radius: 20px;
+    width: 80px;
+    margin-inline: 30%;
+}
+
+/*FIN DE INDEX*/
+
+
+
+
+/*CSS PARA LORCA*/
+
+.table{
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+
+.lorcatable {
+    margin-inline: 5%;
+    margin-top: 10%;
+    align-items: center;
+    margin-top: 20px;
+ border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.parrafolorca {
+    margin-inline: 30px;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+/*FIN DE CSS LORCA*/
+
+/*NUESTRO LEGADO*/
+    .headernuestrolegado{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-weight: bold;
+        background-color: #1c183a;
+        
+    }
+
+    h1 {
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        
+    }
+
+    .elementosmenunuestrolegado {
+        display: inline-block;
+        padding: 0px 15px;
+    }
+
+    .enlaceelementosmenunuestrolegado {
+        font-size: 20px;
+        color: black;
+        text-decoration: none;
+        padding: 8px;
+        border: 2px solid transparent;
+    }
+    
+    .enlaceelementosmenunuestrolegado:hover {
+        color: rgb(103, 37, 129);
+        background-color: #f6ecff;
+        border-radius: 20px;
+        display: inline;
+        padding: 8px;
+        border: 2px solid transparent;
+    }
+
+.tablanuestrolegado {
+    color: rgb(89, 115, 172);
+    border-radius: 15px;
+    background-color: #10141f;
+    text-align: justify;
+    margin-inline: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

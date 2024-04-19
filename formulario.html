@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulario</title>
+    <link href="styles.css" rel="stylesheet"  type="text/css">
+</head>
+
+<body bgcolor="#9cd9ac">
+    <header>
+        <nav class="sombra">
+        <nav class="header">
+            
+            <h1 class="titulo_pagina">TONCITOS</h1>
+                
+                    <ul class="elementosmenu">
+                        
+                        <li class="elementosmenu"><a href="index.html" class="enlaceelementosmenu"> INICIO</a></li>
+                        <li class="elementosmenu"><a href="sobre_mi.html" class="enlaceelementosmenu">SOBRE MI</a></li>
+                        <li class="elementosmenu"><a href="nuestro_legado.html" class="enlaceelementosmenu">NUESTRO LEGADO</a></li>
+                        <li class="elementosmenu"><a href="formulario.html" class="enlaceelementosmenu">&Uacute;NETE A NOSOTROS</a></li>
+                    
+                    </ul>
+                
+        </nav>
+        </nav>
+    </header>
+    <h1 align="center">&iexcl;Enhorabuena&excl;</h1>
+    <h4 align="center">ya falta menos para que seas de los nuestros.</h4>
+
+<table class="table" width="600px" align="center">
+  
+    <tr>
+        <td><h2 align="center">Formulario de bienvenida</h2></td> 
+    </tr>
+    <tr >
+        <td >
+            <form style="margin-inline: 5%;">
+                    <label for="nombre"><b>Nombre completo:</b></label>
+                    <input type="text" name="nombre" id="nombre">
+                
+                    <br><br>
+                    
+                    <label for="fecha_nacimiento"><b>Fecha de nacimiento</b></label>
+                    <input type="date" id="fecha_nacimiento" name="fecha">
+
+                    <br><br>
+
+                    <label for="so"><b>Sistema operativo</b></label>
+                    <select id="so" name="so">
+                        <optgroup label="Microsoft">
+                            <option>Windows 10</option>
+                            <option>Windows 11</option>
+                            <option>Windows 8</option>
+                            <option>Windows 8.1</option>
+                            <option>Windows 7</option>
+                            <option>Otro</option>
+                        </optgroup>
+                        <optgroup label="Linux">
+                            <option>Ubuntu</option>
+                            <option>Ubuntu Mate</option>
+                            <option>Lubuntu</option>
+                            <option>Subuntu</option>
+                            <option>Otro</option>
+                        </output>
+                    </select>
+                    <br><br>
+                    <label for="otro"><b>Si has elegido otro indicanoslo:</b></label>
+                    <input id="otro">
+                    <br><br>
+
+                    <label for="foto"><b>Sube una foto tama&ntilde;o carnet:</b></label>
+                    <input type="file">
+                <br><br>
+                    <label for="grafica"><b>Que tipo de tarjeta grafica tienes:</b></label><br><br>
+                <div align="center">
+                    <input type="radio" name="grafica" value="1"> AMD
+                    <input type="radio" name="grafica" value="2"> NVIDIA
+                    <input type="radio" name="grafica" value="3"> Gr&aacute;ficos integrados
+                </div>
+                    <br><br>
+                
+                    <label for="navegador"><b>Navegador desde donde estas rellenando el formulario:</b></label><br><br>
+                    <center><select multiple name="navegador" id="navegador">
+                        <option>Google Chrome</option>
+                        <option>Safari</option>
+                        <option>Firefox</option>
+                        <option>Explorer</option>
+                        <option>Safari</option>
+                        <option>Opera</option>
+                        <option>Opera</option>
+                    </select></center>
+                <br>
+                <br>
+                <div align="center">
+                    <a href="gracias.html"><input type="button" name="enviar" value="Enviar"></a>
+                    <a href="formulario.html"><input type="button" name="borrar" value="Borrar"></a>
+                </div>
+                <br>
+            </form>
+        </td>
+    </tr>
+
+</table>
+</div>
+</body>
+</html>
